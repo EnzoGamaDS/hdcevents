@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\http\Controllers\EventController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,14 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[EventController::class, 'index']);
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/events/create',[EventController::class, 'create']);
 
-Route::get('/product', function () {
-    return view('contact');
-});
+Route::get('/contact',[EventController::class, 'contact']);

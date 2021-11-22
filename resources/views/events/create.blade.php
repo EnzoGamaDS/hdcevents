@@ -1,8 +1,8 @@
 @extends('layout.main')
 
-@section('title', 'HDC Events')
+@section('title', 'Criar Evento')
 
 @section('content')
-    <h1>Tela de Produtos</h1>
+    <h1>Crie um Evento</h1>
     
 @endsection

@@ -18,7 +18,7 @@
                 <div class="card col-md-3">
                     <img src="/img/events/{{$event->image}}" alt="{{$event->title}}">
                     <div class="card-body">
-                        <p class="card-date">22/11/2021</p>
+                        <p class="card-date">{{ date('d/m/Y',strtotime($event->date)) }}</p>
                         <h5 class="card-title">{{$event->title}}</h5>
                         <p class="card-participants">x participantes</p>
                         <a href="/events/{{$event->id}}" class="btn btn-primary">saber mais</a>

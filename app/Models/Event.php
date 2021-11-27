@@ -12,4 +12,6 @@ class Event extends Model
     protected $casts = [
         'itens' => 'array'
     ];
+    protected $dates = ['date'] ;
+    
 }

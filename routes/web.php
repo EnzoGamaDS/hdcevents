@@ -17,7 +17,7 @@ use App\http\Controllers\EventController;
     //mostra todos os registros
 Route::get('/',[EventController::class, 'index']);
     //cria registros no banco
-Route::get('/events/create',[EventController::class, 'create']);
+Route::get('/events/create',[EventController::class, 'create'])->middleware('auth');// o ->middleware('auth') só permite usuarios logados acessarem a rota
     //mostra um dado especifico no banco
 Route::get('/events/{id}',[EventController::class, 'show']);
     //enviar os dados do banco

@@ -22,6 +22,8 @@ Route::get('/events/create',[EventController::class, 'create'])->middleware('aut
 Route::get('/events/{id}',[EventController::class, 'show']);
     //enviar os dados do banco
 Route::post('/events', [EventController::class, 'store']);
+    //deleta dados
+Route::delete('/events/{id}', [EventController::class, 'destroy']);
 
 Route::get('/contact',[EventController::class, 'contact']);
 

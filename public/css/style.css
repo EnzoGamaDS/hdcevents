@@ -172,7 +172,9 @@ header{
 .dashboard-events-container th {
     width: 25%;
 }
-
+.dashboard-events-container form {
+    display: inline-block;
+}
 /*footer*/
 footer{
     text-align: center;

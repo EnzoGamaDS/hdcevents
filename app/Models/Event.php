@@ -16,6 +16,8 @@ class Event extends Model
     ];
     protected $dates = ['date'] ;
 
+    protected $guarded = [];
+
     //pq só uu usuario é dono 
     //Event belongsTo User - event pertence a usuario
     public function user(){

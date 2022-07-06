@@ -1,6 +1,7 @@
 # Blog Cake
 
 ![GitHub](https://img.shields.io/badge/CakePHP-20232A?style=for-the-badge&logo=php&logoColor=61DAFB)
+![GitHub](https://img.shields.io/badge/Laravel-20232A?style=for-the-badge&logo=laravel&logoColor=red)
 
 > O projeto Blog com cake tem a ideia de aprimorar meus conhecimentos no framework CakePHP.
 
@@ -14,6 +15,7 @@ Projeto em desenvolvimento
 ## 💻 Pré-requisitos
 
  * Projeto desenvolvido com a versão 7.4.26 do PHP.
+ * Projeto desenvolvido com a versão 8 do Laravel.
 
 Para instalar o Blog, siga estas etapas:
 
